@@ -14,7 +14,7 @@ const somPause = new Audio('/sons/pause.mp3');
 const somTempoAcabou = new Audio('/sons/beep.mp3');
 const spanBt = startPauseBt.querySelector('span');
 const iconBt = startPauseBt.querySelector('img');
-let tempoDecorridoEmSegundos = 5;
+let tempoDecorridoEmSegundos = 1500;
 let intervaloId = null;
 
 musica.loop = true;
